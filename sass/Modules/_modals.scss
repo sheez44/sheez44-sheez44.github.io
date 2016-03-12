@@ -1,0 +1,79 @@
+.modal-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    @include translate(-50%, -50%);
+    z-index: 9999;
+    background: $bgcolor-primary;
+    border: 1px solid black;
+    padding: 40px;
+    display: none;
+    width: 82%;
+    height: 500px;
+    @include responsive(1140px) {
+        padding: 15px;
+        width: 90%;
+    }
+}
+
+#mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 8888;
+    background: grayscale($blue);
+    opacity: 0.7;
+    display: none;
+}
+
+.fotorama {
+    float: left;
+    max-height: 500px;
+    @include responsive(md) {
+        width: 50%;
+    }
+    @include responsive(xs) {
+        display: none;
+    }
+}
+
+.modaltext{
+    &--container { // BEM?
+        float: left;
+        margin-left: 2em;
+        max-width: 49%;
+        @include responsive(1140px) {
+            max-width: 42%;
+        }
+        @include responsive(xs) {
+            max-width: 100%;
+            float: none;
+            margin-left: 0;
+        }
+        h1 {
+            @include responsive(sm) {
+                margin-top: 0;
+            }
+        }
+    }
+    &__list {
+        color: $blue;
+        list-style-type: none;
+        padding-left: 1em;
+    }
+    &__listitem {
+        font-size: 18px;
+        padding-bottom: 4px;
+        @include responsive(sm) {
+            font-size: 15px;
+        }
+        .fa {
+            padding-right: 1em;
+        }
+    }
+    &__description {
+        font-weight: 300;
+    }
+}

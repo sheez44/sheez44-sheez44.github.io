@@ -1,0 +1,91 @@
+// ==========================================================================
+// Helpers
+// ==========================================================================
+
+// Clearfix
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Screen reader text
+
+.srt {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+%bg-blue {
+	@include background(linear-gradient(left top, #0771b8, #2183c4));
+}
+
+%heading-titles {
+	color: $white;
+    letter-spacing: 0.02em;
+}
+
+$skewed-header-margin-lg: 2em auto;
+$skewed-header-margin-md: 1em auto;
+
+%skewed-header {
+	font-size: em(36px);
+	text-align: center;
+	letter-spacing: 0.15em;
+	width: 29%;
+	margin: $skewed-header-margin-lg;
+	@include transform(skewY(-3deg));	
+	padding: 0.3em;
+	@include responsive(md) {
+		margin: $skewed-header-margin-md;
+		width: 54%;
+	}
+	@include responsive(xs) {
+		width: 80%;
+	}
+}
+
+@mixin skewed-header($color, $bg, $font: $font-secondary) {
+	font-family: $font;
+	border-bottom: 2px solid $color;
+	border-right: 2px solid $color;
+	background: rgba($bg, 0.6);
+	@extend %skewed-header;
+}
+
+.section-header {
+	@include skewed-header($white, $gray-dark);
+}
+
+%mute-link {
+	text-decoration: none;
+	color: $gray;
+	font-style: italic;
+}
+
+.mute-link {
+	@extend %mute-link;
+}
+
+%align-vertical {
+	position: relative;
+	left: 50%;
+	@include transform(translateX(-50%));
+}
+
+%fontawesome-icons {
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'Fontawesome';
+	font-smoothing: antialiased;
+	content: '\f0c0';
+}

@@ -1,0 +1,29 @@
+<h1 class="project__title">Project:      {{project.name}}</h1>
+
+<div class="project__container">
+
+    <section class="box left">
+        <div class="description">
+            <h3>Description</h3>
+            <p>{{project.description}}</p>
+        </div>
+        <div class="features">
+            <ul>
+                <li ng-repeat="feature in project.features">{{feature}}</li>
+            </ul>
+        </div>
+        <div class="links">
+            <ul>
+                <li ng-repeat="link in project.links"><a title="{{link.name}}" target="_{{link.name}}" href="{{link.link}}">{{link.name}}</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="box right">
+        <div class="image__container">
+            <figure ng-repeat="image in project.images" class="project__image">
+                <img ng-src="{{image}}" alt="image">
+            </figure>
+        </div>
+    </section>
+</div>

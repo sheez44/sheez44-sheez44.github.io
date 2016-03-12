@@ -1,0 +1,15 @@
+<section class="portfolio" id="my_projects">
+
+    <h2 class="section-header">{{header}}</h2>
+
+    <div class="portfolio">
+
+        <div class="portfolio__container">
+            <div ng-repeat="project in projects | orderBy: '-age'" class="portfolio__project">
+                <a href="#/projects/{{project.id}}">
+                <img ng-src="{{project.thumb}}"></a>
+                <p>Project: <span>{{project.name}}</span></p>
+            </div>
+        </div>
+    </div>      
+</section>

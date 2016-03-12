@@ -1,0 +1,22 @@
+{
+	"name": "Personal Homepage",
+	"thumb": "images/personalpage.png",
+	"images": ["images/popup/personal1.png",
+		"images/popup/personal2.png",
+		"images/popup/personal3.png"],
+	"description": "This site is targeted to represent my acquired webdevelopment skills. The site is built with modular sass, compass and using the BEM methodology.",
+	"features": {
+		"1": "SASS/Compass",
+		"2": "jQuery/Ajax",
+		"3": "Responsive"
+	},
+	"links": [{
+		"name": "Current Page",
+		"link": "http://www.psy-dev.nl"
+	},
+		{
+			"name": "Github",
+			"link": "https://github.com/sheez44/my_homepage"
+		}
+	]
+}

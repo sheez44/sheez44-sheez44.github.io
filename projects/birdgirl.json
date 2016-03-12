@@ -1,0 +1,23 @@
+{
+	"name": "Bird Girl",
+	"thumb": "images/birdgirl.png",
+	"images": ["images/popup/birdgirl1.png",
+		"images/popup/birdgirl2.png",
+		"images/popup/birdgirl3.png",
+		"images/popup/birdgirl4.png"],
+	"description": "Personal project. I converted a free psd frontpage template to a working website. I later built in some scroll-based css animations.",
+	"features": {
+		"1": "Grunt",
+		"2": "Responsive",
+		"3": "Scroll-based animations"
+	},
+	"links": [{
+		"name": "Link Bird Girl",
+		"link": "http://www.psy-dev.nl/_my-projects/birdgirl"
+	},
+		{
+			"name": "Github",
+			"link": "https://github.com/sheez44/template1"
+		}
+	]
+}

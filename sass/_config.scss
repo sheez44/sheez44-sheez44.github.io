@@ -1,0 +1,58 @@
+// ==========================================================================
+// Config file
+// ==========================================================================
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+// Font styles
+$font-primary: 'Lato', sans-serif;
+$font-secondary: Broadway, regular;
+$font-roboto: 'Roboto', sans-serif;
+
+// Colors
+$blue: #2183c4;
+/* $white: #d5d5d5; */
+$black: #000;
+$white: #fff;
+
+$gray-light: #b7b7b7;
+$gray: #363636;
+$gray-dark: #292929;
+
+
+$section-gray: #60676f;
+$bgcolor-primary: $gray;
+$color-primary: $white;
+$color-secondary: $blue;
+// Font sizes
+
+$smaller-font-size: 12px;
+$small-font-size: 15.2px;
+$base-font-size: 16px;
+$large-font-size: 21px;
+$larger-font-size: 36px;
+
+$base-line-height: 24px;
+/* @include establish-baseline($base-font-size);
+ */
+
+// Border radius
+
+$border-radius-default: 10px;
+$default-border-radius: $border-radius-default;
+
+// margins
+
+$margin-social-mobile: 2%;
+
+// Font awesome icons - social media
+
+$social: (
+  'twitter.com': '\f099',
+  'linkedin.com': '\f08c',
+  '@psy-dev.nl': '\f01c',
+  'github.com': '\f1d2'
+);
+
+//
+$section-personal-height: 125px;

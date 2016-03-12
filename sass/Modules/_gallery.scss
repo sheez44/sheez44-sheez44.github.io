@@ -1,0 +1,107 @@
+.project__title {
+    margin-top: 1em;
+    font-size: 3em;
+    text-shadow: 4px 4px $gray-dark;
+
+    @include responsive(md) {
+        text-align: center;
+    }
+
+    @include responsive(sm) {
+        margin-top: 2em;
+        line-height: 1.5;
+        font-size: 1.5em;
+    }
+}
+
+.project__container {
+    @extend %clearfix;
+
+    border: 3px solid $gray-dark;
+    background: rgba(243,250,255, 0.86);
+    color: $black;
+    padding: 1em;
+    margin-bottom: 3em;
+
+    .description {
+        font-family: Helvetica Neue, Helvetica, Arial;
+
+        h3 {
+            border-bottom: 1px solid #FFF;
+            padding-bottom: 0.5em;
+        }
+    }
+
+    .image__container {
+        img {
+            width: 48%;
+            margin: 1%;
+            float: left;
+            border: 2px solid $gray-dark;
+
+            @include responsive(md) {
+                width: 100%;
+                float: none;
+            }
+        }
+
+        figure {
+            @include responsive(md) {
+                margin: 1em 0;
+            }
+        }
+    }
+
+    .links {
+        @extend %clearfix;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                background-color: $gray-dark;
+                text-align: center;
+                padding: 10px;
+
+                @include responsive(sm) {
+                    margin-bottom: 1em;
+                }
+
+                &:last-of-type {
+                    margin-right: 0;
+                    background-color: $blue;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $white;
+                    text-shadow: 1px 1px 1px #888;
+                }
+            }
+        }
+    }
+
+    .features {
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                background-color: $white;
+                padding: 0.5em;
+                border: 1px solid $black;
+                margin-top: 1em;
+                font-weight: 900;
+                letter-spacing: 0.05em;
+
+                &:first-of-type {
+                    margin-top: 0;
+                }
+            }
+        }
+
+    }
+
+
+}

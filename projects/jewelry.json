@@ -1,0 +1,22 @@
+{
+	"name": "Jewelry",
+	"thumb": "images/jewelery.png",
+	"images": ["images/popup/jewelery1.png",
+		"images/popup/jewelery2.png",
+		"images/popup/jewelery3.png"],
+	"description": "This is my last project. For this site I tried to implement LESS as my css preprocessor and also a new workflow using gulp for the first time.",
+	"features": {
+		"1": "Less",
+		"2": "Bootstrap 3",
+		"3": "Gulp"
+	},
+	"links": [{
+		"name": "Link Jewelry Page",
+		"link": "http://www.psy-dev.nl/_my-projects/jewelry"
+	},
+		{
+			"name": "Github",
+			"link": "https://github.com/sheez44/jewelry-template"
+		}
+	]
+}

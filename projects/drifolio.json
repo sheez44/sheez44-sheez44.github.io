@@ -1,0 +1,23 @@
+{
+	"name": "Drifolio",
+	"thumb": "images/drifolio.png",
+	"images": ["images/popup/drifolio1.png",
+		"images/popup/drifolio2.png",
+		"images/popup/drifolio3.png",
+		"images/popup/drifolio4.png"],
+	"description": "I rebuilt the free template website of Mamun Srizon. I tried to write very clean sass and markup using BEM. Additionally, I added some custom animations.",
+	"features": {
+		"1": "SASS",
+		"2": "Bootstrap 3",
+		"3": "Animated"
+	},
+	"links": [{
+		"name": "Link Drifolio",
+		"link": "http://www.psy-dev.nl/_my-projects/drifolio"
+	},
+		{
+			"name": "Github",
+			"link": "https://github.com/sheez44/drifolio"
+		}
+	]
+}

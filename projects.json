@@ -1,0 +1,40 @@
+{
+	"thumbs": [ 
+	{
+		"age": "1",
+		"id": "attc77",
+		"thumb": "images/attc.png",
+		"name": "ATTC '77"
+	},
+	{
+		"age": "2",
+		"id": "birdgirl",
+		"thumb": "images/birdgirl.png",
+		"name": "BirdGirl"
+	},
+	{
+		"age": "3",
+		"id": "foodtemplate",
+		"thumb": "images/burgers.png",
+	  	"name": "FoodTemplate"
+	},
+	{
+		"age": "4",
+		"id": "personal",
+		"thumb": "images/personalpage.png",
+	  	"name": "Personal Page"
+	},
+	{
+		"age": "5",
+		"id": "drifolio",
+		"thumb": "images/drifolio.png",
+		"name": "Drifolio"
+	},
+	{
+		"age": "6",
+		"id": "jewelry",
+		"thumb": "images/jewelery.png",
+		"name": "Jewelry"
+	}		
+	]
+}

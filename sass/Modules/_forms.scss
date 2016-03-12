@@ -1,0 +1,64 @@
+%form-width {
+	width: 600px;
+	margin: 0 auto;
+	@include responsive(xs) {
+		width: 100%;
+	}
+}
+
+form {
+	border: 2px solid $gray-dark;
+	background: $gray-light;
+	padding: 15px;
+	@extend %form-width;
+	span {
+		display: block;
+	}
+	label {
+		color: $gray-dark;
+		width: 48%;
+		@include responsive(xs) {
+			width: 100%;
+		}
+	}
+	textarea {
+		width: 100%;
+		height: 100px;
+		resize: none;
+		label {
+			clear: both;
+		}
+	}
+	input, textarea {
+		border: 2px solid $blue;
+		padding: 5px;
+		color: $gray;
+		width: 100%;
+		&:active, &:focus {
+			border: 2px solid $gray-dark;
+		}
+	}
+	.input__group {
+		@extend %clearfix;
+		margin-bottom: 15px;
+		label {	
+			float: left;
+			&:nth-of-type(2) {
+				float: right;
+			}
+		}
+	}
+	outline-color: $gray-dark;
+	input[type="submit"] {
+		display: block;
+		margin-top: 10px;
+		width: 25%;
+		color: $gray-dark;
+		padding: 10px;
+	}
+}
+
+.input__text--intro {
+	@extend %form-width;
+}
+

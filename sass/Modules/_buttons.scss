@@ -1,0 +1,13 @@
+.btn {
+	background: $blue;
+	border: 1px solid $section-gray;
+	&:hover {
+		background: $gray-dark;
+		border: 1px solid $white;
+	}
+}
+
+.buttons {
+	width: 100px;
+	margin: 0 auto;
+}

@@ -1,0 +1,27 @@
+<section class="contact">
+    <h2 class="section-header" id="my_contact">{{header}}</h2>
+    
+    <div class="input__text--intro">
+
+            <p>If you wish to contact me for job opportunities or want to hire me for a specific project.</p>
+            
+    </div>
+
+        
+    <form method="POST" id="form" action="//formspree.io/contact@psy-dev.nl">
+        <div class="input__group">
+            <label for="name"><span>Name</span>
+            <input type="text" name="name" id="name"></label>
+            <label for="_replyto"><span>Email</span>
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="email" name="_replyto" id="_replyto"></label>
+        </div>    
+            
+        <label for="textarea"><span>Tell me about your project</span></label>
+        <textarea name="textarea" id="textarea"></textarea>
+        
+        <input type="submit" value="Send">
+    </form>
+          
+
+</section>

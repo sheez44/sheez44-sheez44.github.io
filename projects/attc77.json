@@ -1,0 +1,28 @@
+{
+  "name": "ATTC' 77",
+  "thumb": "images/attc.png",
+  "images": [
+    "images/popup/attc1.png",
+    "images/popup/attc2.png",
+    "images/popup/attc3.png",
+    "images/popup/attc4.png"
+  ],
+  "description": "This is my first big project. My table tennis club was in need of a new website and I was happy to make one. I learned so much making this website.",
+  "features": {
+    "1": "SASS/Compass",
+    "2": "jQuery/Ajax",
+    "3": "Grunt",
+    "4": "Responsive",
+    "5": "SEO"
+  },
+  "links": [
+    {
+      "name": "Link ATTC' 77",
+      "link": "http://www.attc77.nl"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/sheez44/attc77"
+    }
+  ]
+}

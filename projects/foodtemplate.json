@@ -1,0 +1,22 @@
+{
+	"name": "FoodTemplate",
+	"thumb": "images/burgers.png",
+	"images": ["images/popup/food1.png",
+		"images/popup/food2.png",
+		"images/popup/food3.png",
+		"images/popup/food4.png"],
+	"description": "Personal project. I converted a free psd frontpage template to a working website using twitter bootstrap.",
+	"features": {
+		"1": "Bootstrap",
+		"2": "Sass"
+	},
+	"links": [{
+		"name": "Link FoodTemplate",
+		"link": "http://www.psy-dev.nl/_my-projects/foodtemplate"
+	},
+		{
+			"name": "Github",
+			"link": "http://www.google.nl"
+		}
+	]
+}
