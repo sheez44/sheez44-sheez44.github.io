@@ -1,0 +1,24 @@
+{
+	"name": "StudyPortals",
+	"thumb": "images/splogo.png",
+	"images": ["images/popup/sp1.png",
+		"images/popup/sp2.png",
+		"images/popup/sp3.png",
+		"images/popup/sp4.png"
+	],
+	"description": "This is the company I work for. I am a frontend developer in a scrum team. I contributed a great deal on the GlobalStudyAwards page and renewing the account page as well as many other features on the portals.",
+	"features": {
+		"1": "Sass",
+		"2": "Mootools",
+		"3": "Git"
+	},
+	"links": [{
+		"name": "Link StudyPortals Page",
+		"link": "http://www.mastersportal.eu/"
+	},
+		{
+			"name": "Link GlobalStudyAwards Page",
+			"link": "http://www.mastersportal.eu/pages/the-global-study-awards"
+		}
+	]
+}
